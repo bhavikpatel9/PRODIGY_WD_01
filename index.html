@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/menu.png">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Our Company</h2>
+        <p>We are dedicated to providing the best services to our clients. Our team of experts ensures top-notch quality in every project we undertake. Join us on a journey of innovation and excellence.</p>
+        <img src="images/home.jpg" alt="Home Image">
+    </section>
+
+    <section id="about" data-navbar="1">
+        <h2>About Us</h2>
+        <p>Our company was founded with the mission to deliver exceptional services in the industry. With years of experience and a team of passionate professionals, we have built a reputation for excellence and customer satisfaction.</p>
+        <img src="images/about.jpg" alt="About Image">
+    </section>
+
+    <section id="services" data-navbar="2">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Consulting:</strong> Expert advice to help you achieve your business goals.</li>
+            <li><strong>Development:</strong> Custom software solutions tailored to your needs.</li>
+            <li><strong>Design:</strong> Creative and innovative design services to make your brand stand out.</li>
+        </ul>
+        <img src="images/service.jpg" alt="Services Image">
+    </section>
+
+    <section id="contact" data-navbar="3">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get in touch, please reach out to us through the following methods:</p>
+        <ul>
+            <li>Email: contact@ourcompany.com</li>
+            <li>Phone: (123) 456-7890</li>
+            <li>Address: 123 Business Lane, Business City, BC 12345</li>
+        </ul>
+        <img src="images/contact.jpg" alt="Contact Image">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
